@@ -1,0 +1,1 @@
+# KinoMinskDiplomaProject
