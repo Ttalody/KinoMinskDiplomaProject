@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		751BC8A129FC5C2E0037E09D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751BC8A029FC5C2E0037E09D /* AppDelegate.swift */; };
+		751BC8A329FC5C2E0037E09D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751BC8A229FC5C2E0037E09D /* SceneDelegate.swift */; };
+		751BC8A529FC5C2E0037E09D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751BC8A429FC5C2E0037E09D /* ViewController.swift */; };
+		751BC8A829FC5C2E0037E09D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 751BC8A629FC5C2E0037E09D /* Main.storyboard */; };
+		751BC8AB29FC5C2E0037E09D /* KinoMinsk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 751BC8A929FC5C2E0037E09D /* KinoMinsk.xcdatamodeld */; };
+		751BC8AD29FC5C2F0037E09D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751BC8AC29FC5C2F0037E09D /* Assets.xcassets */; };
+		751BC8B029FC5C2F0037E09D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 751BC8AE29FC5C2F0037E09D /* LaunchScreen.storyboard */; };
+		751BC8BB29FC5C300037E09D /* KinoMinskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751BC8BA29FC5C300037E09D /* KinoMinskTests.swift */; };
+		751BC8C529FC5C300037E09D /* KinoMinskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751BC8C429FC5C300037E09D /* KinoMinskUITests.swift */; };
+		751BC8C729FC5C300037E09D /* KinoMinskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751BC8C629FC5C300037E09D /* KinoMinskUITestsLaunchTests.swift */; };
+		751BC8D429FC60810037E09D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751BC8D329FC60810037E09D /* LoginViewController.swift */; };
+		751BC8D629FC6BEB0037E09D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751BC8D529FC6BEB0037E09D /* GradientView.swift */; };
+		7537853F2A111E5600BF6CD0 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7537853E2A111E5600BF6CD0 /* RegisterViewController.swift */; };
+		753785432A17F43400BF6CD0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753785422A17F43400BF6CD0 /* HomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		751BC8B729FC5C300037E09D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 751BC89529FC5C2E0037E09D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 751BC89C29FC5C2E0037E09D;
+			remoteInfo = KinoMinsk;
+		};
+		751BC8C129FC5C300037E09D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 751BC89529FC5C2E0037E09D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 751BC89C29FC5C2E0037E09D;
+			remoteInfo = KinoMinsk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		751BC89D29FC5C2E0037E09D /* KinoMinsk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KinoMinsk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		751BC8A029FC5C2E0037E09D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		751BC8A229FC5C2E0037E09D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		751BC8A429FC5C2E0037E09D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		751BC8A729FC5C2E0037E09D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		751BC8AA29FC5C2E0037E09D /* KinoMinsk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KinoMinsk.xcdatamodel; sourceTree = "<group>"; };
+		751BC8AC29FC5C2F0037E09D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		751BC8AF29FC5C2F0037E09D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		751BC8B129FC5C2F0037E09D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		751BC8B629FC5C300037E09D /* KinoMinskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinoMinskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		751BC8BA29FC5C300037E09D /* KinoMinskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinoMinskTests.swift; sourceTree = "<group>"; };
+		751BC8C029FC5C300037E09D /* KinoMinskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinoMinskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		751BC8C429FC5C300037E09D /* KinoMinskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinoMinskUITests.swift; sourceTree = "<group>"; };
+		751BC8C629FC5C300037E09D /* KinoMinskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinoMinskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		751BC8D329FC60810037E09D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		751BC8D529FC6BEB0037E09D /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		7537853E2A111E5600BF6CD0 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		753785422A17F43400BF6CD0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		751BC89A29FC5C2E0037E09D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		751BC8B329FC5C300037E09D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		751BC8BD29FC5C300037E09D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		751BC89429FC5C2E0037E09D = {
+			isa = PBXGroup;
+			children = (
+				751BC89F29FC5C2E0037E09D /* KinoMinsk */,
+				751BC8B929FC5C300037E09D /* KinoMinskTests */,
+				751BC8C329FC5C300037E09D /* KinoMinskUITests */,
+				751BC89E29FC5C2E0037E09D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		751BC89E29FC5C2E0037E09D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				751BC89D29FC5C2E0037E09D /* KinoMinsk.app */,
+				751BC8B629FC5C300037E09D /* KinoMinskTests.xctest */,
+				751BC8C029FC5C300037E09D /* KinoMinskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		751BC89F29FC5C2E0037E09D /* KinoMinsk */ = {
+			isa = PBXGroup;
+			children = (
+				7537853C2A0FAA2F00BF6CD0 /* Views */,
+				7537853D2A0FAA4900BF6CD0 /* Controllers */,
+				751BC8A029FC5C2E0037E09D /* AppDelegate.swift */,
+				751BC8A229FC5C2E0037E09D /* SceneDelegate.swift */,
+				751BC8A629FC5C2E0037E09D /* Main.storyboard */,
+				751BC8AC29FC5C2F0037E09D /* Assets.xcassets */,
+				751BC8AE29FC5C2F0037E09D /* LaunchScreen.storyboard */,
+				751BC8B129FC5C2F0037E09D /* Info.plist */,
+				751BC8A929FC5C2E0037E09D /* KinoMinsk.xcdatamodeld */,
+			);
+			path = KinoMinsk;
+			sourceTree = "<group>";
+		};
+		751BC8B929FC5C300037E09D /* KinoMinskTests */ = {
+			isa = PBXGroup;
+			children = (
+				751BC8BA29FC5C300037E09D /* KinoMinskTests.swift */,
+			);
+			path = KinoMinskTests;
+			sourceTree = "<group>";
+		};
+		751BC8C329FC5C300037E09D /* KinoMinskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				751BC8C429FC5C300037E09D /* KinoMinskUITests.swift */,
+				751BC8C629FC5C300037E09D /* KinoMinskUITestsLaunchTests.swift */,
+			);
+			path = KinoMinskUITests;
+			sourceTree = "<group>";
+		};
+		7537853C2A0FAA2F00BF6CD0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				751BC8D529FC6BEB0037E09D /* GradientView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7537853D2A0FAA4900BF6CD0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				751BC8A429FC5C2E0037E09D /* ViewController.swift */,
+				751BC8D329FC60810037E09D /* LoginViewController.swift */,
+				7537853E2A111E5600BF6CD0 /* RegisterViewController.swift */,
+				753785422A17F43400BF6CD0 /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		751BC89C29FC5C2E0037E09D /* KinoMinsk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 751BC8CA29FC5C300037E09D /* Build configuration list for PBXNativeTarget "KinoMinsk" */;
+			buildPhases = (
+				751BC89929FC5C2E0037E09D /* Sources */,
+				751BC89A29FC5C2E0037E09D /* Frameworks */,
+				751BC89B29FC5C2E0037E09D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KinoMinsk;
+			productName = KinoMinsk;
+			productReference = 751BC89D29FC5C2E0037E09D /* KinoMinsk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		751BC8B529FC5C300037E09D /* KinoMinskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 751BC8CD29FC5C300037E09D /* Build configuration list for PBXNativeTarget "KinoMinskTests" */;
+			buildPhases = (
+				751BC8B229FC5C300037E09D /* Sources */,
+				751BC8B329FC5C300037E09D /* Frameworks */,
+				751BC8B429FC5C300037E09D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				751BC8B829FC5C300037E09D /* PBXTargetDependency */,
+			);
+			name = KinoMinskTests;
+			productName = KinoMinskTests;
+			productReference = 751BC8B629FC5C300037E09D /* KinoMinskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		751BC8BF29FC5C300037E09D /* KinoMinskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 751BC8D029FC5C300037E09D /* Build configuration list for PBXNativeTarget "KinoMinskUITests" */;
+			buildPhases = (
+				751BC8BC29FC5C300037E09D /* Sources */,
+				751BC8BD29FC5C300037E09D /* Frameworks */,
+				751BC8BE29FC5C300037E09D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				751BC8C229FC5C300037E09D /* PBXTargetDependency */,
+			);
+			name = KinoMinskUITests;
+			productName = KinoMinskUITests;
+			productReference = 751BC8C029FC5C300037E09D /* KinoMinskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		751BC89529FC5C2E0037E09D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					751BC89C29FC5C2E0037E09D = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					751BC8B529FC5C300037E09D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 751BC89C29FC5C2E0037E09D;
+					};
+					751BC8BF29FC5C300037E09D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 751BC89C29FC5C2E0037E09D;
+					};
+				};
+			};
+			buildConfigurationList = 751BC89829FC5C2E0037E09D /* Build configuration list for PBXProject "KinoMinsk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 751BC89429FC5C2E0037E09D;
+			productRefGroup = 751BC89E29FC5C2E0037E09D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				751BC89C29FC5C2E0037E09D /* KinoMinsk */,
+				751BC8B529FC5C300037E09D /* KinoMinskTests */,
+				751BC8BF29FC5C300037E09D /* KinoMinskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		751BC89B29FC5C2E0037E09D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				751BC8B029FC5C2F0037E09D /* LaunchScreen.storyboard in Resources */,
+				751BC8AD29FC5C2F0037E09D /* Assets.xcassets in Resources */,
+				751BC8A829FC5C2E0037E09D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		751BC8B429FC5C300037E09D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		751BC8BE29FC5C300037E09D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		751BC89929FC5C2E0037E09D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				751BC8A529FC5C2E0037E09D /* ViewController.swift in Sources */,
+				751BC8AB29FC5C2E0037E09D /* KinoMinsk.xcdatamodeld in Sources */,
+				7537853F2A111E5600BF6CD0 /* RegisterViewController.swift in Sources */,
+				753785432A17F43400BF6CD0 /* HomeViewController.swift in Sources */,
+				751BC8D629FC6BEB0037E09D /* GradientView.swift in Sources */,
+				751BC8A129FC5C2E0037E09D /* AppDelegate.swift in Sources */,
+				751BC8D429FC60810037E09D /* LoginViewController.swift in Sources */,
+				751BC8A329FC5C2E0037E09D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		751BC8B229FC5C300037E09D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				751BC8BB29FC5C300037E09D /* KinoMinskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		751BC8BC29FC5C300037E09D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				751BC8C729FC5C300037E09D /* KinoMinskUITestsLaunchTests.swift in Sources */,
+				751BC8C529FC5C300037E09D /* KinoMinskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		751BC8B829FC5C300037E09D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 751BC89C29FC5C2E0037E09D /* KinoMinsk */;
+			targetProxy = 751BC8B729FC5C300037E09D /* PBXContainerItemProxy */;
+		};
+		751BC8C229FC5C300037E09D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 751BC89C29FC5C2E0037E09D /* KinoMinsk */;
+			targetProxy = 751BC8C129FC5C300037E09D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		751BC8A629FC5C2E0037E09D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				751BC8A729FC5C2E0037E09D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		751BC8AE29FC5C2F0037E09D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				751BC8AF29FC5C2F0037E09D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		751BC8C829FC5C300037E09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		751BC8C929FC5C300037E09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		751BC8CB29FC5C300037E09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RBVUFB3256;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KinoMinsk/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ArturAkulich.KinoMinsk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		751BC8CC29FC5C300037E09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RBVUFB3256;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KinoMinsk/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ArturAkulich.KinoMinsk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		751BC8CE29FC5C300037E09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RBVUFB3256;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ArturAkulich.KinoMinskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KinoMinsk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KinoMinsk";
+			};
+			name = Debug;
+		};
+		751BC8CF29FC5C300037E09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RBVUFB3256;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ArturAkulich.KinoMinskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KinoMinsk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KinoMinsk";
+			};
+			name = Release;
+		};
+		751BC8D129FC5C300037E09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RBVUFB3256;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ArturAkulich.KinoMinskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KinoMinsk;
+			};
+			name = Debug;
+		};
+		751BC8D229FC5C300037E09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RBVUFB3256;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ArturAkulich.KinoMinskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KinoMinsk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		751BC89829FC5C2E0037E09D /* Build configuration list for PBXProject "KinoMinsk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				751BC8C829FC5C300037E09D /* Debug */,
+				751BC8C929FC5C300037E09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		751BC8CA29FC5C300037E09D /* Build configuration list for PBXNativeTarget "KinoMinsk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				751BC8CB29FC5C300037E09D /* Debug */,
+				751BC8CC29FC5C300037E09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		751BC8CD29FC5C300037E09D /* Build configuration list for PBXNativeTarget "KinoMinskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				751BC8CE29FC5C300037E09D /* Debug */,
+				751BC8CF29FC5C300037E09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		751BC8D029FC5C300037E09D /* Build configuration list for PBXNativeTarget "KinoMinskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				751BC8D129FC5C300037E09D /* Debug */,
+				751BC8D229FC5C300037E09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		751BC8A929FC5C2E0037E09D /* KinoMinsk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				751BC8AA29FC5C2E0037E09D /* KinoMinsk.xcdatamodel */,
+			);
+			currentVersion = 751BC8AA29FC5C2E0037E09D /* KinoMinsk.xcdatamodel */;
+			path = KinoMinsk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 751BC89529FC5C2E0037E09D /* Project object */;
+}
